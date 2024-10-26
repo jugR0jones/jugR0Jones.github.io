@@ -4,7 +4,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
 import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
 import CardSmall from "@components/ui/cards/CardSmall.astro";
 import CardWide from "@components/ui/cards/CardWide.astro";
-import FeaturesStatsAlt from "@components/sections/features/FeaturesStatsAlt.astro";
+import FeaturesProjectSummary from "@components/sections/features/FeaturesProjectSummary.astro";
 import TestimonialsSectionAlt from "@components/sections/testimonials/TestimonialsSectionAlt.astro";
 
 // Importing necessary functions from Astro
@@ -117,13 +117,13 @@ const pageTitle: string = `Projects | ${SITE.title}`;
     </section>
   </div>
   <!--Features statistics section-->
-  <FeaturesStatsAlt
+  <FeaturesProjectSummary
     title="Personal Site"
     subTitle="A place to record what I've done. To help others grow. And to test my skills."
     benefits={[
       "A static site generated with Astro.",
       "Uses GitHub Actions to deploy to GitHub Pages.",
-      "Made with Tailwind CSS and Tailwind UI.",
+      "Made with Tailwind CSS and Tailwind UI."
     ]}
   />
   <!--Testimonials section-->
