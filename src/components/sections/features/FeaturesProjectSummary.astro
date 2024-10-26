@@ -3,13 +3,13 @@ import { Image } from "astro:assets";
 import product5 from "@images/features-image.avif";
 
 // Define props from Astro
-const { title, subTitle, benefits } = Astro.props;
+const { title, benefits, link } = Astro.props;
 
 // Define TypeScript interface for props
 interface Props {
   title: string;
-  subTitle?: string;
   benefits?: Array<string>;
+  link?: string;
 }
 
 // Define SVG marker to be used in the component
@@ -33,9 +33,9 @@ const ListItemMarker: string = `<svg fill="none" viewBox="0 0 24 24" stroke-widt
             {title}
           </h2>
           {
-            subTitle && (
+            link && (
               <p class="text-pretty text-neutral-600 dark:text-neutral-400">
-                {subTitle}
+                <a href={link}>{link}</a>
               </p>
             )
           }
