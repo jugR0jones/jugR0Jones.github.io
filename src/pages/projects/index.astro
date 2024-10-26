@@ -24,8 +24,7 @@ const product: CollectionEntry<"products">[] = (
 
 // Define variables for page content
 const title: string = "Projects";
-const subTitle: string =
-  "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts. Each of our products is crafted with precision and built to last, ensuring you have the right tool for every job.";
+const subTitle: string = "The various bits and bobs I've worked on over the years.";
 
 // Testimonial data that will be rendered in the component
 const testimonials = [
@@ -61,7 +60,7 @@ const testimonials = [
   },
 ];
 
-const pageTitle: string = `Products | ${SITE.title}`;
+const pageTitle: string = `Projects | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -69,15 +68,15 @@ const pageTitle: string = `Products | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/products",
-    "url": "https://screwfast.uk/products",
-    "name": "Hardware Tools | ScrewFast",
-    "description": "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts.",
+    "@id": "https://jugr0jones.github.io/projects",
+    "url": "https://jugr0jones.github.io/projects",
+    "name": "Projects | Jones",
+    "description": "The various bits and bobs I've worked on over the years.",
     "isPartOf": {
       "@type": "WebSite",
-      "url": "https://screwfast.uk",
-      "name": "ScrewFast",
-      "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+      "url": "https://jugr0jones.github.io",
+      "name": "Jones",
+      "description": "What I do. How I do it. Why I do it."
     },
     "inLanguage": "en-US"
   }}
@@ -119,12 +118,12 @@ const pageTitle: string = `Products | ${SITE.title}`;
   </div>
   <!--Features statistics section-->
   <FeaturesStatsAlt
-    title="Why Choose ScrewFast?"
-    subTitle="Transform your ideas into tangible results with ScrewFast tools. Whether you're starting with a sketch on a napkin or diving into a comprehensive construction project, our tools are engineered to help you build with confidence."
+    title="Personal Site"
+    subTitle="A place to record what I've done. To help others grow. And to test my skills."
     benefits={[
-      "Robust and reliable tools for long-lasting performance.",
-      "Innovative solutions tailored to modern construction needs.",
-      "Customer support dedicated to your project's success.",
+      "A static site generated with Astro.",
+      "Uses GitHub Actions to deploy to GitHub Pages.",
+      "Made with Tailwind CSS and Tailwind UI.",
     ]}
   />
   <!--Testimonials section-->
