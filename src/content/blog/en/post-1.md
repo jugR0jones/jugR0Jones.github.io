@@ -1,14 +1,14 @@
 ---
-title: "Maximizing Efficiency with ScrewFast's Cutting-Edge Tools"
-description: "Innovating Construction Efficiency with Precision Tools & Support"
-author: "Jacob"
+title: "Detecting Change"
+description: "Various ways of detecting change"
+author: "Jones"
 authorImage: "@/images/blog/jacob.avif"
 authorImageAlt: "Avatar Description"
-pubDate: 2024-02-06
-cardImage: "@/images/blog/post-1.avif"
-cardImageAlt: "Top view mechanical tools arrangement"
+pubDate: 2024-01-26
+cardImage: "@/images/blog/Change.webp"
+cardImageAlt: "Detecting change"
 readTime: 4
-tags: ["tools", "construction", "workflow" ]
+tags: ["performance", "lean", "pragmatic" ]
 contents: [
         "In today's fast-paced construction industry, efficiency is key to success. At ScrewFast, we understand the importance of optimizing your project workflow to meet deadlines and stay within budget. That's why we're thrilled to introduce our cutting-edge tools designed to empower your projects like never before.",
         "Our range of hardware tools combines precision engineering with user-centric design, ensuring maximum productivity on every job site. From power drills to advanced fastening solutions, ScrewFast's tools are built to withstand the rigors of construction while streamlining your workflow.",
